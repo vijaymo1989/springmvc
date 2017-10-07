@@ -19,7 +19,7 @@ public class FormBean {
 	@NotEmpty
 	private String name;
 	
-	@Min(21)
+	@Min(19)
 	private int age;
 
 	@DateTimeFormat(iso=ISO.DATE)
